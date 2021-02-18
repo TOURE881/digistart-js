@@ -5,13 +5,14 @@ console.log("Vous êtes dans l'exercice 1 sur le DOM");
 // ------ TODO 1 ------
 // Créez une variable récupérant l'élément button ayant l'id "myButton" du HTML.
 
-
+document.getElementsByTagName('button');
 
 
 // ------ TODO 2 ------
 // Modifier le texte de l'élément button grâce à sa propriété innerHTML.
 
-
+var content = document.getElementsByClassName("content");
+var monH1 = content[0];
 
 
 // ------ TODO 3 ------
